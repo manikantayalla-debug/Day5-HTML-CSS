@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 14e
+        </title>
+        <style>
+            body{
+                height: 3000px;
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                position: fixed;
+                top: 4%;
+                left: 4%;
+                right: 2%;
+                height: 40px;
+            }
+            .pic{
+                height: 60px;
+                width: 60px;
+                border-radius: 60px;
+                padding-right: 0px;
+            }
+            .name{
+                font-family: Arial;
+                font-weight: bold;
+                padding-left: 20px;
+                font-size: 18px;
+            }
+
+            .add-friend-button{
+                background-color: rgb(41, 135, 211);
+                color: white;
+                border-radius: 8px;
+                border: none;
+                margin-left:300px;
+                font-family: Arial;
+                font-size: 14px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-right: 10px;
+            }
+            .message-button{
+                background-color: rgb(186, 187, 188);
+                color: black;
+                border-radius: 8px;
+                border: none;
+                font-family: Arial;
+                font-size: 14px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-right: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="picture-side">
+                <img class="pic" src="cat.jpg">
+            </div>
+            <div class="name">Oliver Cat</div>
+            <div class="add-friend">
+                <button class="add-friend-button">Add Friend</button>
+            </div>
+            <div class="message">
+                <button class="message-button">Message</button>
+            </div>
+        </div>
+    </body>
+</html>
