@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 14b</title>
+        <style>
+            body{
+                height: 3000px;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+            }
+            .d2{
+                font-family: Arial;
+                background-color: rgb(0, 113, 0);
+                color: white;
+                position: fixed;
+                right: 0px;
+                width: 100px;
+                top: 0;
+                bottom: 0;
+                padding-right: 10px;
+            }
+            .box-container{
+                background-color: rgba(247, 247, 247, 0.8);
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                bottom:40%;
+                top: 40%;
+                left: 25%;
+                right: 25%;
+                border-radius: 10px;
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+            }
+            .title{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 20px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-top: 10px;
+            }
+            .text{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 16px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-top: 10px;
+            }
+            .Close-button-div{
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="d1"></div>
+            <div class="d2">right sidebar</div>
+            <div class="box-container">
+                <div class="title">Modal Title</div>
+                <div class="text">This is a modal</div>
+                <div class="Close-button-div">
+                    <button class="close-button">Close</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
